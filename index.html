@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="faviconimg.png">
+    <title>iChat - Realtime Node Socket.io Chat App</title>
+    <!-- connection between server and client using link socket.io/socket.io.js -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <!-- logo and caption of app -->
+      <nav>
+        <img src="chat.jpg" alt="Chat App" class="logo">
+        <h1>Welcome to iChat App</h1>  
+     </nav>
+
+     <!-- container where all the chats will be visible -->
+      <div class="container"></div>
+
+      <!-- It is an input text where any one can write and send it to the user by clicking on send button -->
+      <div class="send">
+        <form action="#" id="send-container">
+           <input type="text" name="messageInp" id="messageInp">
+           <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body{
+    height:100vh;
+    background-image: linear-gradient(#060606,#0a6602);
+}
+
+.logo{
+    display:block;
+    margin:auto;
+    width:50px;
+    height:50px;
+    border-radius:10px;
+}
+
+h1{
+    color:#13c60d;
+    margin-top:12px;
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+}
+
+.container{
+    max-width:950px;
+    margin:auto;
+    background-image:linear-gradient(to top, black,#02410c);
+    height:60vh;
+    padding:33px;
+    overflow-y:auto;
+    margin-bottom:23px;
+    border-radius: 10px;
+    border:1px solid #05f105;
+}
+
+.message{
+    background-color: rgb(237, 196, 135);
+    width:24%;
+    padding:10px;
+    margin:17px 2px;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+/* .left{
+    float:left;
+    clear:both;
+}
+
+.right{
+    float:right;
+    clear:both;
+} */
+
+#send-container{
+    display:block;
+    margin:auto;
+    text-align:Center;
+    max-width:985px;
+    height:34px;
+    max-width:1085px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#messageInp{
+    width:80%;
+    border:2px solid white;
+    border-radius:6px;
+    height:34px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    width:9%;
+    cursor:pointer;
+    border:2px solid #011302;
+    border-radius:6px;
+    height:40px;
+    margin-left:5px;
+    font-size:large;
+    font-family:'Times New Roman', Times, serif
+}
