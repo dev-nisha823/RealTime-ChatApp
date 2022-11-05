@@ -1,9 +1,9 @@
-                                                                   # RealTime-ChatApp
+#RealTime-ChatApp
 
 # Introduction of the Project:-
-It is a Social media App just like the Whatsapp.
-User can do chatting either in 2 way or with more than 2 person at the same time.
-If user joined/left the chat it will be shown to each and every person who are involve in chatting.
+1. It is a Social media App just like the Whatsapp.
+2. User can do chatting either in 2 way or with more than 2 person at the same time.
+3. If user joined/left the chat it will be shown to each and every person who are involve in chatting.
 
 
 
@@ -17,11 +17,16 @@ If user joined/left the chat it will be shown to each and every person who are i
 # HOW TO Execute the CODE ? :-
 
 # Must install http, socket.io, nodemon and CORS
-# Install nodemon using : npm install -g nodemon   
+# Install nodemon using : 
+npm install -g nodemon   
 because "nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are  detected."
-# Install socket.io using: npm install socket.io
-# Install http using : npm install http
-# Install CORS using : npm install cors  and then include below code to index.js which is a server file.
+# Install socket.io using: 
+  npm install socket.io
+# Install http using : 
+  npm install http
+# Install CORS using : 
+ npm install cors  
+ and then include below code to index.js which is a server file.
 # Install CORS because server is running on 'http://localhost:8000' and for this include: 
     const io = require("socket.io")(httpServer, {
       cors: {
@@ -33,9 +38,9 @@ because "nodemon is a tool that helps develop Node.js based applications by auto
 
 
 #  ABOUT FILE & FOLDER
-# index.html file is the main index frontend file for the app.
-# index.js file is the server side file which is inside nodeServer file
-# client.js file is of client side.
-# style.css file is css file of app
-# ting.mp3 is an audio file which is used for sound whenever user receive the message from anyone.
-# chat.jpg is the logo image.
+1. index.html file is the main index frontend file for the app.
+2. index.js file is the server side file which is inside nodeServer file
+3. client.js file is of client side.
+4. style.css file is css file of app
+5. ting.mp3 is an audio file which is used for sound whenever user receive the message from anyone.
+6. chat.jpg is the logo image.
