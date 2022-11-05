@@ -1,5 +1,6 @@
-#RealTime-ChatApp
 
+
+# RealTime - iChat App
 # Introduction of the Project:-
 1. It is a Social media App just like the Whatsapp.
 2. User can do chatting either in 2 way or with more than 2 person at the same time.
